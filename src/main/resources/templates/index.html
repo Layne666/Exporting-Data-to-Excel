@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel导出测试</title>
+</head>
+<body>
+<button id="btn1">点击1</button>
+<button id="btn2">点击2</button>
+<script type="text/javascript">
+    window.onload = function(){
+        var btn1 = document.getElementById("btn1");
+        btn1.onclick = function (ev) {
+            window.location.href = "/exportExcel";
+        }
+
+        var btn2 = document.getElementById("btn2");
+        btn2.onclick = function (ev) {
+            window.location.href = "/export";
+        }
+    }
+</script>
+</body>
+</html>
